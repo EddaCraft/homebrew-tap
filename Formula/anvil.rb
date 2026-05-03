@@ -1,25 +1,25 @@
 class Anvil < Formula
   desc "Anvil CLI — structural governance for AI-assisted development"
   homepage "https://github.com/eddacraft/anvil"
-  version "0.5.0-beta"
+  version "0.5.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.5.0-beta/eddacraft-anvil-aarch64-apple-darwin.tar.xz"
-      sha256 "881c25b3150a9a88f747e152c5377e343d13d106dc97c0221fc009d43e34703e"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.5.1/eddacraft-anvil-aarch64-apple-darwin.tar.xz"
+      sha256 "5d13ee460f722328a383d937ed64b17a5c3bbc5de68ec983def3b3d2a8d1a9b2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.5.0-beta/eddacraft-anvil-x86_64-apple-darwin.tar.xz"
-      sha256 "d476244a24ef12035841227ad76cba033bdbf7a3dd56b2a3f131d641208005a5"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.5.1/eddacraft-anvil-x86_64-apple-darwin.tar.xz"
+      sha256 "0ff154a48c63d2e68f28010acabd6474c6c1dd617b383935a1f04660b79ec3e0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.5.0-beta/eddacraft-anvil-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e888bda8349c7fcf45f505cb42c43493a09038b4b9b6886a154d0bf3956abe0d"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.5.1/eddacraft-anvil-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9c882e684186a7ca5aef9df3ab2c0010bd210ce6914771c684d8d2f570ef3eac"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.5.0-beta/eddacraft-anvil-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "395ef4824c7fe8c18246becca3c2ba7e99f5228706374b105daf3afc5fe304c6"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.5.1/eddacraft-anvil-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "74082cefced173b759fb907696bd697de3c0b345cbe1c9f5eff57d1dfb1b5ffd"
     end
   end
   license "LicenseRef-Proprietary"
